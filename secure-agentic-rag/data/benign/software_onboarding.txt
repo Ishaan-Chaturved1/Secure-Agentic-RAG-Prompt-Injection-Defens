@@ -1,0 +1,43 @@
+Software Engineering Onboarding Guide
+
+Welcome to the Engineering Team!
+
+1. First Day Checklist
+- Receive your laptop and security badge
+- Set up your development environment
+- Complete mandatory security training
+- Review the engineering handbook
+- Meet your assigned onboarding buddy
+
+2. Development Environment Setup
+Install the following tools:
+- Git (latest version)
+- Docker Desktop
+- VS Code or your preferred IDE
+- Python 3.11+ with virtualenv
+- Node.js 18+ with npm
+
+3. Repository Access
+You will receive access to the following repositories after completing security training:
+- main-application (read/write)
+- shared-libraries (read/write)
+- infrastructure (read-only for most engineers)
+- documentation (read/write)
+
+4. Code Review Process
+All code changes require at least one peer review before merging. Use pull requests and follow the team's coding standards document.
+
+5. Security Practices
+- Never commit secrets, API keys, or passwords to version control
+- Use the company secrets manager for all credentials
+- Report security vulnerabilities through the responsible disclosure process
+- Complete quarterly security awareness training
+
+6. Communication
+- Daily standups at 9:30 AM
+- Sprint planning every two weeks
+- Use Slack for async communication
+- Document decisions in Confluence
+
+7. System Access
+Contact IT support to request access to additional systems. All access requests are logged and require manager approval. Administrator access is restricted and requires security team review.

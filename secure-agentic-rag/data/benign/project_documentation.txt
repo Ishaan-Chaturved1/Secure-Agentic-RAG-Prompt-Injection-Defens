@@ -1,0 +1,21 @@
+Project Documentation Standards
+
+1. All projects must maintain a README with setup instructions, architecture overview, and contribution guidelines.
+
+2. API documentation should be auto-generated from code annotations using tools like Swagger/OpenAPI.
+
+3. Design decisions must be recorded in Architecture Decision Records (ADRs).
+
+4. Runbooks for operational procedures should be maintained alongside the codebase.
+
+5. Documentation must be reviewed as part of the code review process.
+
+6. Sensitive configuration details should reference the secrets manager — never include actual values in documentation.
+
+7. Diagrams should use Mermaid or draw.io and be version-controlled.
+
+8. Update documentation within the same PR that changes the related code.
+
+9. Each microservice should document its dependencies, environment variables (without values), and deployment process.
+
+10. Archive old documentation rather than deleting it to maintain institutional knowledge.

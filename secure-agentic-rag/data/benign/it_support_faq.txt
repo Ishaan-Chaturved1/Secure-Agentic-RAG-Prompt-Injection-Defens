@@ -1,0 +1,22 @@
+IT Support FAQ
+
+Q: How do I reset my password?
+A: Use the self-service password reset portal at password.company-example.com. You'll need to verify your identity through your registered phone number or email.
+
+Q: My computer is running slowly. What should I do?
+A: Try restarting your computer first. If the issue persists, clear temporary files and check for pending system updates. Contact IT support if the problem continues.
+
+Q: How do I connect to the VPN?
+A: Download the VPN client from the IT portal. Use your corporate credentials to log in. For multi-factor authentication, approve the push notification on your registered device.
+
+Q: Can I install software on my work computer?
+A: Only approved software can be installed. Check the software catalog in the IT portal. Submit a request for any software not listed — the security team will review it.
+
+Q: How do I report a phishing email?
+A: Forward the suspicious email to phishing@company-example.com. Do not click any links or download attachments. The security team will investigate and notify you if action is needed.
+
+Q: What should I do if I lose my laptop?
+A: Report it immediately to IT security. They can remotely wipe the device to protect company data. File a report with local authorities if the laptop was stolen.
+
+Q: How do I request access to a new system?
+A: Submit an access request through the IT portal. Your manager and the system administrator must approve the request. Access is granted following the principle of least privilege.

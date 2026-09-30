@@ -1,0 +1,26 @@
+Data Retention and Deletion Policy
+
+1. Purpose
+This policy defines how long business data is retained and when it must be securely deleted to comply with regulatory requirements.
+
+2. Retention Periods
+- Customer data: 7 years after account closure
+- Financial records: 10 years
+- Employee records: 7 years after termination
+- System logs: 90 days (security logs: 1 year)
+- Email archives: 5 years
+
+3. Secure Deletion
+When data reaches end-of-life, it must be securely deleted using approved methods:
+- Digital data: Cryptographic erasure or DOD 5220.22-M standard
+- Physical media: Shredding through approved vendor
+- Database records: Use the approved data lifecycle management tool
+
+4. Legal Hold
+If data is subject to litigation or regulatory investigation, normal deletion schedules are suspended. Contact Legal before deleting any data that might be relevant to pending matters.
+
+5. Responsibilities
+Data owners are responsible for classifying their data and ensuring proper retention. The IT Security team audits compliance quarterly. System administrators must not delete data outside of the approved process.
+
+6. Exceptions
+Requests for early deletion or extended retention must be approved by the Data Governance Committee.

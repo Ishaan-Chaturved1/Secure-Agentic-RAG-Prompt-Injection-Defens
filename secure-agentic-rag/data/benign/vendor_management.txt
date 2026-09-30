@@ -1,0 +1,16 @@
+Vendor Management Policy
+
+1. Vendor Selection
+All vendors must complete the security questionnaire and comply with our data protection requirements. The procurement team manages the approved vendor list.
+
+2. Contracts
+Vendor contracts must include data protection clauses, SLAs, and right-to-audit provisions. Legal must review all contracts before signing.
+
+3. Access
+Vendors requiring system access must sign an NDA and use dedicated vendor accounts. Access is time-limited and monitored. The system administrator provisions and deprovisions vendor accounts.
+
+4. Performance Review
+Vendor performance is reviewed quarterly. Underperforming vendors receive improvement plans. Critical vendor relationships are escalated to leadership.
+
+5. Offboarding
+When vendor relationships end, all access must be revoked within 24 hours. Ensure all company data is returned or securely deleted per the data retention policy.

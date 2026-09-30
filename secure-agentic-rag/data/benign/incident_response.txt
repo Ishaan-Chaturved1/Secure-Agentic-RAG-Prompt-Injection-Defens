@@ -1,0 +1,29 @@
+Incident Response Playbook
+
+1. Detection
+Monitor alerts from SIEM, IDS/IPS, and endpoint detection tools. Any employee can report a suspected incident through the security hotline.
+
+2. Triage
+Classify the incident severity:
+- P1 (Critical): Active data breach, system compromise, ransomware
+- P2 (High): Unauthorized access attempt, malware detection
+- P3 (Medium): Policy violation, suspicious activity
+- P4 (Low): Informational, false positive
+
+3. Containment
+- Isolate affected systems from the network
+- Preserve evidence before any remediation
+- Do not attempt to delete malware — let the security team handle it
+- Block suspicious IP addresses at the firewall
+
+4. Investigation
+The security team will conduct a thorough investigation including log analysis, forensic imaging, and interviews. All findings are documented in the incident management system.
+
+5. Remediation
+- Patch vulnerabilities that were exploited
+- Reset compromised credentials
+- Restore from clean backups if necessary
+- Update security controls to prevent recurrence
+
+6. Post-Incident Review
+Conduct a blameless post-mortem within 5 business days. Document lessons learned and update the playbook. Share relevant findings with the broader organization.

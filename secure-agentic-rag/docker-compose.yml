@@ -1,0 +1,46 @@
+services:
+  secure-rag:
+    build: .
+    container_name: secure-agentic-rag
+    ports:
+      - "8000:8000"
+    environment:
+      - RAG_MODE=hardened
+      - RAG_LLM_BACKEND=mock
+      - PYTHONPATH=/app
+    volumes:
+      - ./data:/app/data
+      - ./logs:/app/logs
+      - ./reports:/app/reports
+      - ./evaluation:/app/evaluation
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "python", "-c", "import requests; requests.get('http://localhost:8000/health')"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: secure-rag-frontend
+    ports:
+      - "3000:80"
+    depends_on:
+      - secure-rag
+    restart: unless-stopped
+
+  # Optional: Ollama for local LLM
+  ollama:
+    image: ollama/ollama:latest
+    container_name: ollama
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_data:/root/.ollama
+    profiles:
+      - with-ollama
+
+volumes:
+  ollama_data:

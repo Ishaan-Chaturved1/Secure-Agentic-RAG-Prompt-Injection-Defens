@@ -1,0 +1,22 @@
+Meeting Room Booking Policy
+
+1. Booking System
+Reserve meeting rooms through the calendar application. Walk-in use is only permitted if the room is available for the next 30 minutes.
+
+2. Room Sizes
+- Huddle rooms (2-4 people): No booking required for under 30 minutes
+- Medium rooms (5-10 people): Book at least 2 hours in advance
+- Large conference rooms (10-20 people): Book at least 24 hours in advance
+- Auditorium (50+ people): Book at least 1 week in advance with facilities approval
+
+3. Etiquette
+- Release rooms you no longer need
+- Clean up after your meeting
+- End on time to respect the next booking
+- Keep food and drinks contained
+
+4. Technology
+All rooms include video conferencing capability. Test equipment before important meetings. Report technical issues to IT support.
+
+5. Cancellation
+Cancel bookings at least 1 hour in advance. Repeated no-shows may result in booking privilege restrictions.

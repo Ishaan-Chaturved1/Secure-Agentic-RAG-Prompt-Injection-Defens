@@ -3,5 +3,16 @@ venv/
 .venv/
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 .pytest_cache/
+.coverage
+htmlcov/
+node_modules/
+**/node_modules/
+dist/
+build/
+.DS_Store
 logs/
+data/app.db
+data/user_documents/

@@ -1,0 +1,37 @@
+Information Security Guidelines
+
+Version 4.0 — Effective: January 2025
+
+1. Data Classification
+- Public: Information intended for public distribution
+- Internal: Business information for internal use only
+- Confidential: Sensitive business data requiring protection
+- Restricted: Highly sensitive data with strict access controls
+
+2. Access Control
+Follow the principle of least privilege. Request only the access you need. All access is logged and audited quarterly. System administrators must use separate privileged accounts.
+
+3. Password Policy
+- Minimum 12 characters
+- Mix of uppercase, lowercase, numbers, and symbols
+- Change passwords every 90 days
+- Never share passwords or write them down
+- Use the approved password manager
+
+4. Data Handling
+- Encrypt confidential and restricted data at rest and in transit
+- Use approved file sharing tools only
+- Do not store sensitive data on personal devices
+- Delete files securely when no longer needed using the approved data destruction process
+
+5. Incident Response
+Report security incidents immediately to security@company-example.com. Do not attempt to investigate or remediate on your own. Preserve evidence and document what you observed.
+
+6. Acceptable Use
+Company systems are for business use. Limited personal use is acceptable. Do not install unauthorized software. Do not bypass security controls.
+
+7. Remote Work Security
+- Use the company VPN for all remote access
+- Lock your screen when away from your device
+- Do not use public Wi-Fi without VPN
+- Keep your home workspace physically secure
