@@ -1,0 +1,18 @@
+# ==============================================================================
+# SECURE AGENTIC RAG — TERRAFORM CONFIGURATION (PLACEHOLDERS ONLY)
+# ==============================================================================
+aws_region          = "us-east-1"
+environment         = "production"
+project_name        = "secure-agentic-rag"
+domain_name         = "example.com"
+github_repo         = "Ishaan-Chaturved1/Secure-Agentic-RAG-Prompt-Injection-Defens"
+
+# Cost-effective instance sizing (adjust for enterprise load)
+db_instance_class   = "db.t3.micro"
+multi_az_db         = false
+backend_cpu         = 1024
+backend_memory      = 2048
+worker_cpu          = 1024
+worker_memory       = 2048
+backend_desired_count = 2
+worker_desired_count  = 1
